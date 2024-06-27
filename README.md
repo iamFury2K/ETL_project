@@ -21,7 +21,8 @@ This repository contains the code for an ETL pipeline that processes the NYC Air
 The dataset used in this project is `AB_NYC_2019.csv`, which contains detailed information about Airbnb listings in New York City. The data can be downloaded from [Kaggle's New York City Airbnb Open Data](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data?resource=download).
 
 ## Getting Started
-
+- The working demo of this project is here 
+[Demo Video](https://drive.google.com/file/d/1bjucE9JlOwXdxtgPoYznlfwxRn20PJY-/view?usp=sharing)
 ### Prerequisites
 
 Ensure you have Python 3.7+ and PostgreSQL installed on your system.
