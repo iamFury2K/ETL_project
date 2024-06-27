@@ -71,14 +71,11 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
      ```sql
      CREATE DATABASE airbnb_nyc;
      ```
-   - Create a user with a password:
+   - Change user with a password:
      ```sql
-     CREATE USER postgres WITH ENCRYPTED PASSWORD 'test';
+     ALTER USER your_user WITH PASSWORD 'test';
      ```
-   - Grant privileges to the user:
-     ```sql
-     GRANT ALL PRIVILEGES ON DATABASE airbnb_nyc TO postgres;
-     ```
+     
    - Exit the PostgreSQL prompt:
      ```sql
      \q
